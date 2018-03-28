@@ -15,6 +15,7 @@ header {
 
 .vtopmenu {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
@@ -32,9 +33,25 @@ header {
 	text-transform: uppercase;
 	font-family: verdana;
 	color: #647786;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#vreservebtn {
+	background-color: #fea100;
+	padding: 10px;
+	margin-top: -12px;
+	color: white;
+	border-style: double;
+	border-radius: 5px;
+}
+
+#vreservebtn i, #vcartbtn i {
+	color: #647786; 
 	font-size: 15px;
 }
 
+<<<<<<< HEAD
 
 /* footer section styles */
 	.pfooter-container{
@@ -100,3 +117,23 @@ header {
 		display: flex;
 		justify-content: space-around;
 	}
+=======
+#vcartbtn .fa-shopping-cart {
+	position: absolute;
+}
+
+#vcartbtn span {
+	background-color: #fe4c8d;
+	border-radius: 50%;
+	color: white;
+	padding: 0 5px;
+	position: relative;
+	bottom: 10px;
+	left: 10px; 
+}
+
+.fa-caret-down {
+	margin-left: 5px;
+}
+
+>>>>>>> 4a79e23ca6ec55adfeb1e2e40524ce81a016b7dd
