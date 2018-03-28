@@ -47,11 +47,11 @@ header {
 }
 
 #vreservebtn i, #vcartbtn i {
-	color: #647786; 
+	color: #647786;
 	font-size: 15px;
 }
 
-<<<<<<< HEAD
+
 
 /* footer section styles */
 	.pfooter-container{
@@ -129,7 +129,7 @@ header {
 	padding: 0 5px;
 	position: relative;
 	bottom: 10px;
-	left: 10px; 
+	left: 10px;
 }
 
 .fa-caret-down {
