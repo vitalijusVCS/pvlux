@@ -1,7 +1,12 @@
 body {
 	margin: 0;
 }
-
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
 header {
 	width: 100%;
 	display: flex;
@@ -29,3 +34,69 @@ header {
 	color: #647786;
 	font-size: 15px;
 }
+
+
+/* footer section styles */
+	.pfooter-container{
+		background-color: #373743;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.pfooter-container h3,a,p{
+		color: white;
+	}
+	.pfooter-container a,p {
+		font-size: 13px;
+	}
+	.footer-navigacija ul{
+		padding-left: 0;
+	}
+	.pfooter-container li {
+		margin-bottom: 10px;
+	}
+	.pfooter-ul{
+		padding-left: 150px;
+		padding-right: 150px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer-form button{
+		border: none;
+		border-radius: 3px;
+		background-color: #FFA101;
+		padding: 7px;
+		color: white;
+		cursor: pointer;
+	}
+	.footer-form input {
+		border: 1px solid white;
+		background-color: #373743;
+		padding: 6px;
+		border-radius: 3px;
+	}
+	.naujienlaiskis a{
+		font-size: 30px;
+	}
+	.fa-facebook-square{
+		color: #4267B2;
+	}
+	.fa-twitter-square{
+		color: #1DA1F2;
+	}
+	.fa-google-plus-square{
+		color: #DA4B39;
+	}
+	.app-av li{
+		background-color: #53525D;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.fa-apple{
+		font-size: 20px;
+	}
+	.app-av a{
+		font-size: 16px;
+		padding: 10px;
+		display: flex;
+		justify-content: space-around;
+	}
