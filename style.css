@@ -44,6 +44,7 @@ header {
 	color: white;
 	border-style: double;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 #vreservebtn i, #vcartbtn i {
@@ -69,6 +70,66 @@ header {
 .fa-caret-down {
 	margin-left: 5px;
 }
+
+/* reserv table section styles */
+		.rez-pcontainer{
+			background-color: #EDF1F4;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		.reserv-head{
+			text-align: center;
+		}
+		#rezerv-p{
+			color: black;
+			margin-bottom: 0;
+		}
+		.rezervacija{
+			display: flex;
+			justify-content: center;
+			padding-left: 150px;
+			padding-right: 150px;
+		}
+		.img-rezerv{
+			width: 50%;
+		}
+		.img-rezerv img{
+			width: 100%;
+		}
+		.main-rezev{
+			width: 50%;
+			margin-left: 30px;
+			display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+		}
+		.rezerv-form{
+			display: flex;
+		}
+		.rezerv-form form{
+			margin-right: 20px;
+		}
+		.rezerv-form div {
+			margin-bottom: 25px;
+		}
+		.rezerv-form input{
+			border: none;
+			border-bottom: 1px solid silver;
+			padding-bottom: 8px;
+			outline: none;
+			background-color: #EDF1F4;
+		}
+		.table-rezerv ul{
+			display: flex;
+			padding-left: 0;
+		}
+		.table-rezerv li{
+			margin-right: 8px;
+		}
+		.table-rezerv #vreservebtn{
+			margin-top: 0;
+
+		}
 
 /* footer section styles */
 	.pfooter-container{
@@ -133,6 +194,9 @@ header {
 		padding: 10px;
 		display: flex;
 		justify-content: space-around;
+	}
+	.app-av li:hover {
+
 	}
 	.rights {
 		display: flex;
