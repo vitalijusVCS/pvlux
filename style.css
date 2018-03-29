@@ -82,7 +82,9 @@ header {
 		}
 		#rezerv-p{
 			color: black;
-			margin-bottom: 0;
+			font-size: 13px;
+			text-transform: uppercase;
+
 		}
 		.rezervacija{
 			display: flex;
@@ -122,6 +124,7 @@ header {
 		.table-rezerv ul{
 			display: flex;
 			padding-left: 0;
+			align-items: center;
 		}
 		.table-rezerv li{
 			margin-right: 8px;
@@ -168,6 +171,7 @@ header {
 		background-color: #373743;
 		padding: 6px;
 		border-radius: 3px;
+		outline: none;
 	}
 	.naujienlaiskis a{
 		font-size: 30px;
